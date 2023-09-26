@@ -19,7 +19,7 @@ document.getElementById("show").addEventListener("click",async ()=>{
                 section.append(title,answer)
                 screen.append(section)
                 section.setAttribute("style","width:15% " )
-                screen.setAttribute("style","display:flex;flex-wrap:wrap;justify-content:space-around")
+                screen.setAttribute("style","display:flex;flex-wrap:wrap;justify-content:space-around;background-image:url(vangogh.jpeg);background-size:cover;background-position:center")
                 // console.log(j)
                 console.log(j,":",i[j])
             }
